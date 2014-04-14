@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6E37868D18F971E40034F9DE"
-               BuildableName = "BeaconPeripheral.app"
-               BlueprintName = "BeaconPeripheral"
-               ReferencedContainer = "container:BeaconPeripheral.xcodeproj">
+               BuildableName = "iBeaconSamplePeripheral.app"
+               BlueprintName = "iBeaconSamplePeripheral"
+               ReferencedContainer = "container:iBeaconSamplePeripheral.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6E3786A818F971E50034F9DE"
-               BuildableName = "BeaconPeripheralTests.xctest"
-               BlueprintName = "BeaconPeripheralTests"
-               ReferencedContainer = "container:BeaconPeripheral.xcodeproj">
+               BuildableName = "iBeaconSamplePeripheralTests.xctest"
+               BlueprintName = "iBeaconSamplePeripheralTests"
+               ReferencedContainer = "container:iBeaconSamplePeripheral.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6E37868D18F971E40034F9DE"
-            BuildableName = "BeaconPeripheral.app"
-            BlueprintName = "BeaconPeripheral"
-            ReferencedContainer = "container:BeaconPeripheral.xcodeproj">
+            BuildableName = "iBeaconSamplePeripheral.app"
+            BlueprintName = "iBeaconSamplePeripheral"
+            ReferencedContainer = "container:iBeaconSamplePeripheral.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6E37868D18F971E40034F9DE"
-            BuildableName = "BeaconPeripheral.app"
-            BlueprintName = "BeaconPeripheral"
-            ReferencedContainer = "container:BeaconPeripheral.xcodeproj">
+            BuildableName = "iBeaconSamplePeripheral.app"
+            BlueprintName = "iBeaconSamplePeripheral"
+            ReferencedContainer = "container:iBeaconSamplePeripheral.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6E37868D18F971E40034F9DE"
-            BuildableName = "BeaconPeripheral.app"
-            BlueprintName = "BeaconPeripheral"
-            ReferencedContainer = "container:BeaconPeripheral.xcodeproj">
+            BuildableName = "iBeaconSamplePeripheral.app"
+            BlueprintName = "iBeaconSamplePeripheral"
+            ReferencedContainer = "container:iBeaconSamplePeripheral.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

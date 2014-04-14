@@ -2,11 +2,12 @@
 //  AppDelegate.m
 //  BeaconPeripheral
 //
-//  Created by 加藤 雄大 on 2014/04/12.
+//  Created by Takahiro on 2014/04/12.
 //  Copyright (c) 2014年 grandbig.github.io. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @implementation AppDelegate
 
@@ -15,6 +16,11 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    ViewController *vc = [[ViewController alloc] init];
+    vc = (ViewController *)[[UINavigationController alloc] initWithRootViewController:vc];
+    self.window.rootViewController = vc;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

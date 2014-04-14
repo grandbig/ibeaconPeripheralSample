@@ -19,6 +19,10 @@
 		6E3786AD18F971E50034F9DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E37869518F971E40034F9DE /* UIKit.framework */; };
 		6E3786B518F971E50034F9DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E3786B318F971E50034F9DE /* InfoPlist.strings */; };
 		6E3786B718F971E50034F9DE /* BeaconPeripheralTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3786B618F971E50034F9DE /* BeaconPeripheralTests.m */; };
+		6E3786C318F9724F0034F9DE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3786C118F9724F0034F9DE /* ViewController.m */; };
+		6E3786C418F9724F0034F9DE /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E3786C218F9724F0034F9DE /* ViewController.xib */; };
+		6E3786C618F972740034F9DE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3786C518F972740034F9DE /* CoreLocation.framework */; };
+		6E3786C818F9727D0034F9DE /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E3786C718F9727D0034F9DE /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,22 +36,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6E37868E18F971E40034F9DE /* BeaconPeripheral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaconPeripheral.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E37868E18F971E40034F9DE /* iBeaconSamplePeripheral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBeaconSamplePeripheral.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E37869118F971E40034F9DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6E37869318F971E40034F9DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6E37869518F971E40034F9DE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6E37869918F971E40034F9DE /* BeaconPeripheral-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeaconPeripheral-Info.plist"; sourceTree = "<group>"; };
+		6E37869918F971E40034F9DE /* iBeaconSamplePeripheral-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iBeaconSamplePeripheral-Info.plist"; sourceTree = "<group>"; };
 		6E37869B18F971E40034F9DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6E37869D18F971E40034F9DE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6E37869F18F971E40034F9DE /* BeaconPeripheral-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BeaconPeripheral-Prefix.pch"; sourceTree = "<group>"; };
+		6E37869F18F971E40034F9DE /* iBeaconSamplePeripheral-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iBeaconSamplePeripheral-Prefix.pch"; sourceTree = "<group>"; };
 		6E3786A018F971E40034F9DE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6E3786A118F971E40034F9DE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6E3786A318F971E40034F9DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6E3786A918F971E50034F9DE /* BeaconPeripheralTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeaconPeripheralTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E3786A918F971E50034F9DE /* iBeaconSamplePeripheralTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBeaconSamplePeripheralTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E3786AA18F971E50034F9DE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6E3786B218F971E50034F9DE /* BeaconPeripheralTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BeaconPeripheralTests-Info.plist"; sourceTree = "<group>"; };
 		6E3786B418F971E50034F9DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6E3786B618F971E50034F9DE /* BeaconPeripheralTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeaconPeripheralTests.m; sourceTree = "<group>"; };
+		6E3786C018F9724F0034F9DE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6E3786C118F9724F0034F9DE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6E3786C218F9724F0034F9DE /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		6E3786C518F972740034F9DE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6E3786C718F9727D0034F9DE /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +64,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E3786C818F9727D0034F9DE /* CoreBluetooth.framework in Frameworks */,
+				6E3786C618F972740034F9DE /* CoreLocation.framework in Frameworks */,
 				6E37869418F971E40034F9DE /* CoreGraphics.framework in Frameworks */,
 				6E37869618F971E40034F9DE /* UIKit.framework in Frameworks */,
 				6E37869218F971E40034F9DE /* Foundation.framework in Frameworks */,
@@ -87,8 +98,8 @@
 		6E37868F18F971E40034F9DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6E37868E18F971E40034F9DE /* BeaconPeripheral.app */,
-				6E3786A918F971E50034F9DE /* BeaconPeripheralTests.xctest */,
+				6E37868E18F971E40034F9DE /* iBeaconSamplePeripheral.app */,
+				6E3786A918F971E50034F9DE /* iBeaconSamplePeripheralTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +107,8 @@
 		6E37869018F971E40034F9DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6E3786C718F9727D0034F9DE /* CoreBluetooth.framework */,
+				6E3786C518F972740034F9DE /* CoreLocation.framework */,
 				6E37869118F971E40034F9DE /* Foundation.framework */,
 				6E37869318F971E40034F9DE /* CoreGraphics.framework */,
 				6E37869518F971E40034F9DE /* UIKit.framework */,
@@ -107,6 +120,9 @@
 		6E37869718F971E40034F9DE /* BeaconPeripheral */ = {
 			isa = PBXGroup;
 			children = (
+				6E3786C018F9724F0034F9DE /* ViewController.h */,
+				6E3786C118F9724F0034F9DE /* ViewController.m */,
+				6E3786C218F9724F0034F9DE /* ViewController.xib */,
 				6E3786A018F971E40034F9DE /* AppDelegate.h */,
 				6E3786A118F971E40034F9DE /* AppDelegate.m */,
 				6E3786A318F971E40034F9DE /* Images.xcassets */,
@@ -118,10 +134,10 @@
 		6E37869818F971E40034F9DE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6E37869918F971E40034F9DE /* BeaconPeripheral-Info.plist */,
+				6E37869918F971E40034F9DE /* iBeaconSamplePeripheral-Info.plist */,
 				6E37869A18F971E40034F9DE /* InfoPlist.strings */,
 				6E37869D18F971E40034F9DE /* main.m */,
-				6E37869F18F971E40034F9DE /* BeaconPeripheral-Prefix.pch */,
+				6E37869F18F971E40034F9DE /* iBeaconSamplePeripheral-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -147,9 +163,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6E37868D18F971E40034F9DE /* BeaconPeripheral */ = {
+		6E37868D18F971E40034F9DE /* iBeaconSamplePeripheral */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E3786BA18F971E50034F9DE /* Build configuration list for PBXNativeTarget "BeaconPeripheral" */;
+			buildConfigurationList = 6E3786BA18F971E50034F9DE /* Build configuration list for PBXNativeTarget "iBeaconSamplePeripheral" */;
 			buildPhases = (
 				6E37868A18F971E40034F9DE /* Sources */,
 				6E37868B18F971E40034F9DE /* Frameworks */,
@@ -159,14 +175,14 @@
 			);
 			dependencies = (
 			);
-			name = BeaconPeripheral;
+			name = iBeaconSamplePeripheral;
 			productName = BeaconPeripheral;
-			productReference = 6E37868E18F971E40034F9DE /* BeaconPeripheral.app */;
+			productReference = 6E37868E18F971E40034F9DE /* iBeaconSamplePeripheral.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6E3786A818F971E50034F9DE /* BeaconPeripheralTests */ = {
+		6E3786A818F971E50034F9DE /* iBeaconSamplePeripheralTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6E3786BD18F971E50034F9DE /* Build configuration list for PBXNativeTarget "BeaconPeripheralTests" */;
+			buildConfigurationList = 6E3786BD18F971E50034F9DE /* Build configuration list for PBXNativeTarget "iBeaconSamplePeripheralTests" */;
 			buildPhases = (
 				6E3786A518F971E50034F9DE /* Sources */,
 				6E3786A618F971E50034F9DE /* Frameworks */,
@@ -177,9 +193,9 @@
 			dependencies = (
 				6E3786AF18F971E50034F9DE /* PBXTargetDependency */,
 			);
-			name = BeaconPeripheralTests;
+			name = iBeaconSamplePeripheralTests;
 			productName = BeaconPeripheralTests;
-			productReference = 6E3786A918F971E50034F9DE /* BeaconPeripheralTests.xctest */;
+			productReference = 6E3786A918F971E50034F9DE /* iBeaconSamplePeripheralTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -196,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6E37868918F971E40034F9DE /* Build configuration list for PBXProject "BeaconPeripheral" */;
+			buildConfigurationList = 6E37868918F971E40034F9DE /* Build configuration list for PBXProject "iBeaconSamplePeripheral" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -208,8 +224,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6E37868D18F971E40034F9DE /* BeaconPeripheral */,
-				6E3786A818F971E50034F9DE /* BeaconPeripheralTests */,
+				6E37868D18F971E40034F9DE /* iBeaconSamplePeripheral */,
+				6E3786A818F971E50034F9DE /* iBeaconSamplePeripheralTests */,
 			);
 		};
 /* End PBXProject section */
@@ -220,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E37869C18F971E40034F9DE /* InfoPlist.strings in Resources */,
+				6E3786C418F9724F0034F9DE /* ViewController.xib in Resources */,
 				6E3786A418F971E40034F9DE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E3786C318F9724F0034F9DE /* ViewController.m in Sources */,
 				6E3786A218F971E40034F9DE /* AppDelegate.m in Sources */,
 				6E37869E18F971E40034F9DE /* main.m in Sources */,
 			);
@@ -257,7 +275,7 @@
 /* Begin PBXTargetDependency section */
 		6E3786AF18F971E50034F9DE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6E37868D18F971E40034F9DE /* BeaconPeripheral */;
+			target = 6E37868D18F971E40034F9DE /* iBeaconSamplePeripheral */;
 			targetProxy = 6E3786AE18F971E50034F9DE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -359,10 +377,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Takahiro Kato (2NYFNN4N85)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BeaconPeripheral/BeaconPeripheral-Prefix.pch";
-				INFOPLIST_FILE = "BeaconPeripheral/BeaconPeripheral-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "BeaconPeripheral/iBeaconSamplePeripheral-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/BeaconPeripheral/iBeaconSamplePeripheral-Info.plist";
+				PRODUCT_NAME = iBeaconSamplePeripheral;
+				PROVISIONING_PROFILE = "1D576623-E3F3-4F5B-B513-BCF90C14CB40";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -372,10 +392,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Takahiro Kato (2NYFNN4N85)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BeaconPeripheral/BeaconPeripheral-Prefix.pch";
-				INFOPLIST_FILE = "BeaconPeripheral/BeaconPeripheral-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "BeaconPeripheral/iBeaconSamplePeripheral-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/BeaconPeripheral/iBeaconSamplePeripheral-Info.plist";
+				PRODUCT_NAME = iBeaconSamplePeripheral;
+				PROVISIONING_PROFILE = "1D576623-E3F3-4F5B-B513-BCF90C14CB40";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -396,7 +418,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "BeaconPeripheralTests/BeaconPeripheralTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iBeaconSamplePeripheralTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -414,7 +436,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BeaconPeripheral/BeaconPeripheral-Prefix.pch";
 				INFOPLIST_FILE = "BeaconPeripheralTests/BeaconPeripheralTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = iBeaconSamplePeripheralTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -423,7 +445,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6E37868918F971E40034F9DE /* Build configuration list for PBXProject "BeaconPeripheral" */ = {
+		6E37868918F971E40034F9DE /* Build configuration list for PBXProject "iBeaconSamplePeripheral" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E3786B818F971E50034F9DE /* Debug */,
@@ -432,21 +454,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6E3786BA18F971E50034F9DE /* Build configuration list for PBXNativeTarget "BeaconPeripheral" */ = {
+		6E3786BA18F971E50034F9DE /* Build configuration list for PBXNativeTarget "iBeaconSamplePeripheral" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E3786BB18F971E50034F9DE /* Debug */,
 				6E3786BC18F971E50034F9DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		6E3786BD18F971E50034F9DE /* Build configuration list for PBXNativeTarget "BeaconPeripheralTests" */ = {
+		6E3786BD18F971E50034F9DE /* Build configuration list for PBXNativeTarget "iBeaconSamplePeripheralTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6E3786BE18F971E50034F9DE /* Debug */,
 				6E3786BF18F971E50034F9DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
